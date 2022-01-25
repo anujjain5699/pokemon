@@ -1,0 +1,27 @@
+.Pokedex {
+    text-align: center;
+}
+
+.Pokedex-cards {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+.Pokedex-data {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Pokedex-winner {
+    color: #4caf50;
+    margin: -1rem 0 -1rem 0;
+}
+
+.Pokedex-loser {
+    color: #e91e63;
+    margin: -1rem 0 -1rem 0;
+}
